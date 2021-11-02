@@ -1,5 +1,5 @@
 class FeatureEnvyCheck2 {
-    static List<Animal> explodingKitties = new ArrayList<>();
+    List<Animal> explodingKitties = new ArrayList<>();
 
     static giveTreats(Animal cat, int treatNumber) {
         int count = 0;
@@ -10,7 +10,7 @@ class FeatureEnvyCheck2 {
         }
     }
 
-    static void addKitten(Animal cat, int countdown) {
+    public void addKitten(Animal cat, int countdown) {
         explodingKitties.add(cat);
         double seconds = Math.random() * countdown;
         cat.explodeIn(seconds);
@@ -18,9 +18,12 @@ class FeatureEnvyCheck2 {
     }
 
     public void removeKitten(Animal cat) {
-        cat.stopCountdown();
         cat.pet();
         explodingKitties.remove(cat);
+    }
+
+    public boolean containsKitten(Animal cat) {
+        return explodingKitties.contains(cat);
     }
 
 } //Noncompliant

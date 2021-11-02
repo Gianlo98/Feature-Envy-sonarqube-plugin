@@ -5,4 +5,4 @@ class FeatureEnvyCheck1 {
     static void deposit(Account account, int amount) {
         account.setBalance(account.balance() + amount);
     }
-}
+} //Noncompliant
