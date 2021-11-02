@@ -7,13 +7,11 @@
     <list default="true" id="5265c37a-893f-4e59-8ec2-63ee4e3e16a2" name="Changes" comment="this is a commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/sonar/samples/java/checks/FeatureEnvyCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sonar/samples/java/checks/FeatureEnvyCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/files/FeatureEnvyCheck1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/files/FeatureEnvyCheck1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/files/FeatureEnvyCheck2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/files/FeatureEnvyCheck2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/files/FeatureEnvyCheck3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/files/FeatureEnvyCheck3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/sonar/samples/java/checks/FeatureEnvyCheckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/sonar/samples/java/checks/FeatureEnvyCheckTest.java" afterDir="false" />
     </list>
-    <list id="46017f24-1490-4087-a1f3-d8c378aeb8cb" name="Changes by gianl" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/sonar/samples/java/checks/FeatureEnvyCheckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/sonar/samples/java/checks/FeatureEnvyCheckTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/sonar/samples/java/checks/MyCustomSubscriptionRuleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/sonar/samples/java/checks/MyCustomSubscriptionRuleTest.java" afterDir="false" />
-    </list>
+    <list id="46017f24-1490-4087-a1f3-d8c378aeb8cb" name="Changes by gianl" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,15 +35,6 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/test/java/org/sonar/samples/java/checks/FeatureEnvyCheckTest.java">
-      <ranges>
-        <range start1="3" end1="3" start2="3" end2="4" changelist="5265c37a-893f-4e59-8ec2-63ee4e3e16a2" />
-        <range start1="6" end1="7" start2="7" end2="15" changelist="5265c37a-893f-4e59-8ec2-63ee4e3e16a2" />
-        <range start1="8" end1="8" start2="16" end2="38" changelist="46017f24-1490-4087-a1f3-d8c378aeb8cb" />
-      </ranges>
-    </file>
   </component>
   <component name="ProjectId" id="20BhBFV9JPE0yiwguvDlkue1WYI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -90,6 +79,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FeatureEnvyCheckTest.checkFeatureEnvy1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sonarqube-plugin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sonar.samples.java.checks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.sonar.samples.java.checks" />
+      <option name="MAIN_CLASS_NAME" value="org.sonar.samples.java.checks.FeatureEnvyCheckTest" />
+      <option name="METHOD_NAME" value="checkFeatureEnvy1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FeatureEnvyCheckTest.checkFeatureEnvy2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sonarqube-plugin" />
       <extension name="coverage">
@@ -125,6 +130,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.FeatureEnvyCheckTest" />
+        <item itemvalue="JUnit.FeatureEnvyCheckTest.checkFeatureEnvy1" />
         <item itemvalue="JUnit.FeatureEnvyCheckTest.checkFeatureEnvy2" />
         <item itemvalue="JUnit.MyFirstCustomCheckTest.test" />
       </list>

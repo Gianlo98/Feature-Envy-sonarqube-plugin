@@ -1,4 +1,4 @@
-class FeatureEnvyCheck2 {
+class FeatureEnvyCheck2 { // Compliant
     List<Animal> explodingKitties = new ArrayList<>();
 
     static giveTreats(Animal cat, int treatNumber) {

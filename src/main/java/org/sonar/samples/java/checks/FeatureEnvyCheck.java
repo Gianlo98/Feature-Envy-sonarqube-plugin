@@ -2,6 +2,8 @@ package org.sonar.samples.java.checks;
 
 import org.sonar.check.Rule;
 import org.sonar.java.model.declaration.MethodTreeImpl;
+import org.sonar.java.model.declaration.ModifierKeywordTreeImpl;
+import org.sonar.java.model.declaration.ModifiersTreeImpl;
 import org.sonar.plugins.java.api.IssuableSubscriptionVisitor;
 import org.sonar.plugins.java.api.tree.*;
 import org.sonar.plugins.java.api.tree.Tree.Kind;
@@ -25,21 +27,30 @@ public class FeatureEnvyCheck  extends IssuableSubscriptionVisitor {
         // fo
         // stat/calls
         ClassTree classTree = (ClassTree) tree;
+        double countStat = 0;
+        double countTot = 0;
         for (Tree method : classTree.members()) {
             if (method instanceof MethodTreeImpl) {
                 MethodTreeImpl methodTree = (MethodTreeImpl) method;
                 // CHECK STATIC VS NON STATIC
                 ModifiersTree modifiers = methodTree.modifiers();
+
                 for (ModifierTree modifier : modifiers) {
-                    if (modifier.equals(Modifier.STATIC)) {
-                        // TODO
-                    } else {
-                        // TODO
+                    countTot++;
+                    if (modifier instanceof ModifierKeywordTreeImpl) {
+                        if (((ModifierKeywordTreeImpl) modifier).modifier().equals(Modifier.STATIC)) {
+                            countStat++;
+                        }
                     }
                 }
+
                 List<StatementTree> body = methodTree.block().body();
             }
-            
+        }
+        System.out.println(countStat + " | " + countTot );
+        if (countTot != 0 && countStat/countTot >= 0.3 ) {
+            System.out.println(countStat/countTot);
+            reportIssue(tree, "static/calls is less than 0.3");
         }
 //        // Retrieve
 //        Symbol.MethodSymbol methodSymbol = methodTree.symbol();

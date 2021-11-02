@@ -34,7 +34,7 @@ public class FeatureEnvyCheckTest {
         CheckVerifier.newVerifier()
                 .onFile("src/test/files/FeatureEnvyCheck3.java")
                 .withCheck(new FeatureEnvyCheck())
-                .verifyIssues();
+                .verifyNoIssues();
     }
 }
 

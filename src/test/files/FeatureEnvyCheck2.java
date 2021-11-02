@@ -1,4 +1,4 @@
-class FeatureEnvyCheck2 {
+class FeatureEnvyCheck2 { // Noncompliant
     static List<Animal> explodingKitties = new ArrayList<>();
 
     static giveTreats(Animal cat, int treatNumber) {
@@ -23,4 +23,4 @@ class FeatureEnvyCheck2 {
         explodingKitties.remove(cat);
     }
 
-} //Noncompliant
+}
