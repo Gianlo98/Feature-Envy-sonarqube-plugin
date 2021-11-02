@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5265c37a-893f-4e59-8ec2-63ee4e3e16a2" name="Changes" comment="this is a commit">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/sonar/samples/java/checks/FeatureEnvyCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sonar/samples/java/checks/FeatureEnvyCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/files/FeatureEnvyCheck1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/files/FeatureEnvyCheck1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/files/FeatureEnvyCheck2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/files/FeatureEnvyCheck2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/files/FeatureEnvyCheck3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/files/FeatureEnvyCheck3.java" afterDir="false" />
     </list>
     <list id="46017f24-1490-4087-a1f3-d8c378aeb8cb" name="Changes by gianl" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +62,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/org/sonar/l10n/java/rules/java" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn test" />
+    </option>
   </component>
   <component name="RunManager" selected="JUnit.FeatureEnvyCheckTest">
     <configuration name="FeatureEnvyCheckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -130,8 +135,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.FeatureEnvyCheckTest" />
-        <item itemvalue="JUnit.FeatureEnvyCheckTest.checkFeatureEnvy1" />
         <item itemvalue="JUnit.FeatureEnvyCheckTest.checkFeatureEnvy2" />
+        <item itemvalue="JUnit.FeatureEnvyCheckTest.checkFeatureEnvy1" />
         <item itemvalue="JUnit.MyFirstCustomCheckTest.test" />
       </list>
     </recent_temporary>
@@ -191,11 +196,32 @@
     <option name="LAST_COMMIT_MESSAGE" value="this is a commit" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sonar/samples/java/checks/FeatureEnvyCheck.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sonar/samples/java/checks/FeatureEnvyCheck.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="org.sonar.java.model.declaration.MethodTreeImpl" memberName="modifiers" />
+        <PinnedItemInfo parentTag="org.sonar.java.model.JavaTree$ParameterizedTypeTreeImpl" memberName="type" />
         <PinnedItemInfo parentTag="org.sonar.java.model.declaration.VariableTreeImpl" memberName="type" />
+        <PinnedItemInfo parentTag="org.sonar.java.model.declaration.VariableTreeImpl" memberName="variableBinding" />
       </pinned-members>
     </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="((org.sonar.java.ast.parser.FormalParametersListTreeImpl)((MethodTreeImpl)method).parameters).get(0)" custom="org.sonar.java.model.declaration.MethodTreeImpl,org.sonar.java.ast.parser.FormalParametersListTreeImpl" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
