@@ -26,4 +26,4 @@ class FeatureEnvyCheck2 {
         return explodingKitties.contains(cat);
     }
 
-} //Noncompliant
+}

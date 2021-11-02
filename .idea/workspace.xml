@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5265c37a-893f-4e59-8ec2-63ee4e3e16a2" name="Changes" comment="this is a commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sonar/samples/java/checks/FeatureEnvyCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/files/FeatureEnvyCheck1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/files/FeatureEnvyCheck2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/sonar/samples/java/checks/FeatureEnvyCheckTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/files/Account.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/files/SecurityAnnotationMandatoryRuleWithoutPackage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/files/SecurityAnnotationMandatoryRuleWithoutPackage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sonar/samples/java/checks/FeatureEnvyCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sonar/samples/java/checks/FeatureEnvyCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/files/FeatureEnvyCheck3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/files/FeatureEnvyCheck3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/sonar/samples/java/checks/FeatureEnvyCheckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/sonar/samples/java/checks/FeatureEnvyCheckTest.java" afterDir="false" />
+    </list>
+    <list id="46017f24-1490-4087-a1f3-d8c378aeb8cb" name="Changes by gianl" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/sonar/samples/java/checks/FeatureEnvyCheckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/sonar/samples/java/checks/FeatureEnvyCheckTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/sonar/samples/java/checks/MyCustomSubscriptionRuleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/sonar/samples/java/checks/MyCustomSubscriptionRuleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +38,15 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/test/java/org/sonar/samples/java/checks/FeatureEnvyCheckTest.java">
+      <ranges>
+        <range start1="3" end1="3" start2="3" end2="4" changelist="5265c37a-893f-4e59-8ec2-63ee4e3e16a2" />
+        <range start1="6" end1="7" start2="7" end2="15" changelist="5265c37a-893f-4e59-8ec2-63ee4e3e16a2" />
+        <range start1="8" end1="8" start2="16" end2="38" changelist="46017f24-1490-4087-a1f3-d8c378aeb8cb" />
+      </ranges>
+    </file>
+  </component>
   <component name="ProjectId" id="20BhBFV9JPE0yiwguvDlkue1WYI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -51,6 +61,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -63,7 +74,38 @@
       <recent name="$PROJECT_DIR$/src/main/resources/org/sonar/l10n/java/rules/java" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.FeatureEnvyCheckTest">
+    <configuration name="FeatureEnvyCheckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sonarqube-plugin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sonar.samples.java.checks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.sonar.samples.java.checks" />
+      <option name="MAIN_CLASS_NAME" value="org.sonar.samples.java.checks.FeatureEnvyCheckTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FeatureEnvyCheckTest.checkFeatureEnvy2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sonarqube-plugin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sonar.samples.java.checks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.sonar.samples.java.checks" />
+      <option name="MAIN_CLASS_NAME" value="org.sonar.samples.java.checks.FeatureEnvyCheckTest" />
+      <option name="METHOD_NAME" value="checkFeatureEnvy2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyFirstCustomCheckTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-custom-rules-example" />
       <extension name="coverage">
@@ -82,6 +124,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FeatureEnvyCheckTest" />
+        <item itemvalue="JUnit.FeatureEnvyCheckTest.checkFeatureEnvy2" />
         <item itemvalue="JUnit.MyFirstCustomCheckTest.test" />
       </list>
     </recent_temporary>
@@ -111,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635588264318</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="this is a commit">
+      <created>1635591396593</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1635591396593</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,9 +178,18 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="this is a commit" />
     <option name="LAST_COMMIT_MESSAGE" value="this is a commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.sonar.java.model.declaration.MethodTreeImpl" memberName="modifiers" />
+        <PinnedItemInfo parentTag="org.sonar.java.model.declaration.VariableTreeImpl" memberName="type" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

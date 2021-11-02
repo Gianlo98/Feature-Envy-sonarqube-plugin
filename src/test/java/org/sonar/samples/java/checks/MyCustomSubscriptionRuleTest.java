@@ -10,7 +10,7 @@ import org.sonar.java.checks.verifier.CheckVerifier;
 class MyCustomSubscriptionRuleTest {
 
   @Test
-  void check() {
+  void checkFeatureEnvy1() {
     // Verifies that the check will raise the adequate issues with the expected message.
     // In the test file, lines which should raise an issue have been commented out
     // by using the following syntax: "// Noncompliant {{EXPECTED_MESSAGE}}"
