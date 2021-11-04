@@ -1,0 +1,12 @@
+{
+  "title": "Feature Envy",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "30min"
+  },
+  "tags": [
+  ],
+  "defaultSeverity": "Minor"
+}

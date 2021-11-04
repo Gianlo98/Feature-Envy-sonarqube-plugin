@@ -1,227 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5265c37a-893f-4e59-8ec2-63ee4e3e16a2" name="Changes" comment="this is a commit">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ccf1d44d-7129-43e9-bec7-db984d1976e3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_staxmate_staxmate_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_33.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_33.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_9_0_33.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_9_0_33.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_19_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_4_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_org_eclipse_jdt_core_3_25_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_core_commands_3_10_100.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_core_contenttype_3_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_core_jobs_3_12_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_core_resources_3_15_100.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_core_runtime_3_23_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_equinox_common_3_15_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_equinox_preferences_3_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_osgi_3_17_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_platform_org_eclipse_text_3_12_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_migrationsupport_5_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonarsource_analyzer_commons_sonar_analyzer_commons_1_14_1_690.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonarsource_analyzer_commons_sonar_analyzer_recognizers_1_14_1_690.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonarsource_analyzer_commons_sonar_regex_parsing_1_14_1_690.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonarsource_analyzer_commons_sonar_xml_parsing_1_14_1_690.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonarsource_java_external_reports_6_15_1_26025.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonarsource_java_java_checks_6_15_1_26025.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonarsource_java_java_checks_testkit_6_15_1_26025.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonarsource_java_java_frontend_6_15_1_26025.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonarsource_java_java_jsp_6_15_1_26025.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonarsource_java_java_surefire_6_15_1_26025.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonarsource_java_java_symbolic_execution_6_15_1_26025.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonarsource_java_jdt_shaded_6_15_1_26025.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonarsource_sonarqube_sonar_plugin_api_8_9_0_43852.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonarsource_sslr_sslr_core_1_24_0_633.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_12_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarqube-plugin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sonar/samples/java/RulesList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sonar/samples/java/RulesList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/sonar/samples/java/checks/FeatureEnvyCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sonar/samples/java/checks/FeatureEnvyCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/files/FeatureEnvyCheck1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/files/FeatureEnvyCheck1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/files/FeatureEnvyCheck2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/files/FeatureEnvyCheck2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/sonar/l10n/java/rules/java/MyFirstCustomRule.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/sonar/l10n/java/rules/java/FeatureEnvyRule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/sonar/l10n/java/rules/java/MyFirstCustomRule.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/sonar/l10n/java/rules/java/FeatureEnvyRule.json" afterDir="false" />
     </list>
-    <list id="46017f24-1490-4087-a1f3-d8c378aeb8cb" name="Changes by gianl" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="20BhBFV9JPE0yiwguvDlkue1WYI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="20RkRRSzcs4P7TNdvo7qAxL52zZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/org/sonar/l10n/java/rules/java" />
-    </key>
-  </component>
-  <component name="RunAnythingCache">
-    <option name="myCommands">
-      <command value="mvn test" />
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.FeatureEnvyCheckTest">
-    <configuration name="FeatureEnvyCheckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sonarqube-plugin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.sonar.samples.java.checks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.sonar.samples.java.checks" />
-      <option name="MAIN_CLASS_NAME" value="org.sonar.samples.java.checks.FeatureEnvyCheckTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FeatureEnvyCheckTest.checkFeatureEnvy1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sonarqube-plugin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.sonar.samples.java.checks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.sonar.samples.java.checks" />
-      <option name="MAIN_CLASS_NAME" value="org.sonar.samples.java.checks.FeatureEnvyCheckTest" />
-      <option name="METHOD_NAME" value="checkFeatureEnvy1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FeatureEnvyCheckTest.checkFeatureEnvy2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sonarqube-plugin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.sonar.samples.java.checks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.sonar.samples.java.checks" />
-      <option name="MAIN_CLASS_NAME" value="org.sonar.samples.java.checks.FeatureEnvyCheckTest" />
-      <option name="METHOD_NAME" value="checkFeatureEnvy2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyFirstCustomCheckTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-custom-rules-example" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.sonar.samples.java.checks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.sonar.samples.java.checks" />
-      <option name="MAIN_CLASS_NAME" value="org.sonar.samples.java.checks.MyFirstCustomCheckTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.FeatureEnvyCheckTest" />
-        <item itemvalue="JUnit.FeatureEnvyCheckTest.checkFeatureEnvy2" />
-        <item itemvalue="JUnit.FeatureEnvyCheckTest.checkFeatureEnvy1" />
-        <item itemvalue="JUnit.MyFirstCustomCheckTest.test" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5265c37a-893f-4e59-8ec2-63ee4e3e16a2" name="Changes" comment="" />
-      <created>1635523751894</created>
+      <changelist id="ccf1d44d-7129-43e9-bec7-db984d1976e3" name="Changes" comment="" />
+      <created>1636014781311</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1635523751894</updated>
-      <workItem from="1635523756948" duration="175000" />
-      <workItem from="1635524041226" duration="4667000" />
+      <updated>1636014781311</updated>
     </task>
-    <task id="LOCAL-00001" summary="this is a commit">
-      <created>1635588185514</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1635588185514</updated>
-    </task>
-    <task id="LOCAL-00002" summary="this is a commit">
-      <created>1635588264318</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1635588264318</updated>
-    </task>
-    <task id="LOCAL-00003" summary="this is a commit">
-      <created>1635591396593</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1635591396593</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="this is a commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="this is a commit" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/sonar/samples/java/checks/FeatureEnvyCheck.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/sonar/samples/java/checks/FeatureEnvyCheck.java</url>
-          <line>71</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-    <pin-to-top-manager>
-      <pinned-members>
-        <PinnedItemInfo parentTag="org.sonar.java.model.declaration.MethodTreeImpl" memberName="modifiers" />
-        <PinnedItemInfo parentTag="org.sonar.java.model.JavaTree$ParameterizedTypeTreeImpl" memberName="type" />
-        <PinnedItemInfo parentTag="org.sonar.java.model.declaration.VariableTreeImpl" memberName="type" />
-        <PinnedItemInfo parentTag="org.sonar.java.model.declaration.VariableTreeImpl" memberName="variableBinding" />
-      </pinned-members>
-    </pin-to-top-manager>
-    <watches-manager>
-      <configuration name="JUnit">
-        <watch expression="((org.sonar.java.ast.parser.FormalParametersListTreeImpl)((MethodTreeImpl)method).parameters).get(0)" custom="org.sonar.java.model.declaration.MethodTreeImpl,org.sonar.java.ast.parser.FormalParametersListTreeImpl" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>

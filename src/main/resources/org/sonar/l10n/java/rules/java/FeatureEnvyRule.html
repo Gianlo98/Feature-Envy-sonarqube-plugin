@@ -1,0 +1,69 @@
+<p>Feature envy occurs when a method mainly accesses another class's data instead of its own</p>
+<div>Selection criteria:
+    <ul>
+        <li>external attribute CALLS: higher or eq. than 4</li>
+        <li>internal/external attribute CALLS: lower or eq. than 0.3</li>
+        <li>fan out FO: lower or eq. than 4</li>
+        <li>static methods: overused or used inappropriately (static/total higher or eq. than 0.3)</li>
+    </ul>
+
+</div>
+
+
+
+<h2>Noncompliant Code Example</h2>
+<pre>
+class FeatureEnvyCheck1 {
+    static void withdraw(Account account, int amount) {
+				int balance = account.balance();
+        account.setBalance(balance - amount);
+    }
+    static void deposit(Account account, int amount) {
+				int balance = account.balance();
+        account.setBalance(balance + amount);
+    }
+} //noncompliant
+
+external calls: 4
+int/ext = 0
+fo = 1
+stat/calls = 2/2 = 1
+
+</pre>
+<h2>Compliant Solution</h2>
+<pre>
+class FeatureEnvyCheck2 {
+		List&lt;Animal&gt; explodingKitties = new ArrayList<>();
+
+    static giveTreats(Animal cat, int treatNumber) {
+        int count = 0;
+        while (count < treatNumber) {
+            cat.pet(); //external 1
+            cat.giveTreat(); //external 2
+            count++;
+        }
+    }
+
+    public void addKitten(Animal cat, int countdown) {
+        explodingKitties.add(cat); //internal 1
+				double seconds = Math.random() * countdown; //external 3
+				cat.explodeIn(seconds); //external 4
+
+    }
+
+    public void removeKitten(Animal cat) {
+				cat.pet(); //external 5
+        explodingKitties.remove(cat);
+	}
+
+		public boolean containsKitten(Animal cat) {
+        return explodingKitties.contains(cat); //internal 2
+	}
+
+} //noncompliant
+
+external calls: 5 //OK
+int/ext = 2/5 = 0.4 //NO
+fo = 2 //OK
+stat/calls = 1/4 = 0.25 //NO
+</pre>
